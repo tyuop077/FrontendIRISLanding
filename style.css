@@ -41,11 +41,23 @@ header {
     text-decoration: none;
     color: black;
     letter-spacing: 1px;
+    text-underline-offset: 10px;
+}
+
+.about_us:hover, .purchase:hover, .use_cases:hover {
+    text-decoration: underline;
+}
+
+a.receive_a_call:hover {
+    background-color: #5ede98;
+}
+
+a.receive_a_call:focus {
+    background-color: #1d9453;
 }
 
 .header_contents .main_page {
     text-decoration: underline;
-    text-underline-offset: 10px;
 }
 
 .header_contents .receive_a_call {
