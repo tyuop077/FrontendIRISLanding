@@ -190,6 +190,9 @@ a.receive_a_call:focus {
 
 .choice b {
     position: absolute;
+    margin: 20px 20px;
+    font: 32px/27px sans-serif;
+    z-index: 1;
 }
 
 .choice .blob {
@@ -206,4 +209,9 @@ a.receive_a_call:focus {
     margin-top: -270px;
     width: 260px;
     margin-left: 180px;
+}
+
+.typePicker {
+    display: flex;
+    flex-direction: column;
 }
