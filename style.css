@@ -321,6 +321,7 @@ a.receive_a_call:focus {
 }
 
 .selectors {
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     width: 550px;
